@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="../navigation bar/nav.css">
+    <link rel="stylesheet" href="./web.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onkeydown="javascript:Disable_Control_C()"></body>
+<body>
+    <ul class="navigation_bar">
+        <li class="nav"><a href="../homepage/web.html" class="nav1" >Trang Chủ</a></li>
+        <li class="nav"><a href="../chính sách bảo mật/web.html" class="nav1">Chính Sách Bảo Mật</a></li>
+        <li class="nav"><a href="../về chúng tôi/web.html" class="nav1" id="active">Về Chúng Tôi</a></li>
+        <li class="dropdown" id="li1">
+            <a href="javascript:void(0)" class="dropbtn">Giai Đoạn</a>
+            <div class="dropdown-content">
+                <a href="../thời kì tiền sử/web.html">Thời Kì Tiền Sử</a>
+                <a href="../thời kì cổ đại/web.html">Thời Kì Cổ Đại</a>
+                <a href="../thời kì bắc thuộc/web.html">Thời Kì Bắc Thuộc</a>
+                <a href="../thời kì quân chủ/web.html">Thời Kì Quân Chủ</a>
+                <a href="../thời kì hiện đại/web.html">Thời Kì Hiện Đại</a>
+            </div>
+        </li>
+    </ul>
+<div class="content"> 
+    <h1 class="title">Nhóm 2 - MindX</h1>
+    <h2 class="title">Bao gồm: Chu Minh và Trung Hiếu</h2>
+    <h2 class="title">Về lí do mà chúng mình chọn dự án này:</h2>
+    <h2 class="title">Hiện tại, đã có rất nhiều website về lịch sử nhưng đa số đề rất dài dòng và khó hiểu. Vậy nên chúng em làm ra dự án này là để rút gọn và phổ biến cho mọi người biết cái nhìn về lịch sử của chúng ta qua từng thời kì. </h2>
+</div>
+<footer>
+    <div class="container">
+        <div class="noi-dung about">
+            <h2>Về Dự Án Của Chúng Tôi</h2>
+            <p>Hiện tại, đã có rất nhiều website về lịch sử nhưng đa số đề rất dài dòng và khó hiểu. Vậy nên chúng em làm ra dự án này là để rút gọn và phổ biến cho mọi người biết cái nhìn về lịch sử của chúng ta qua từng thời kì.</p>
+        </div>
+        <div class="noi-dung links">
+            <h2>Đường Dẫn</h2>
+            <ul>
+                <li><a href="#"><a href="../homepage/web.html">Trang Chủ</a></li>
+                <li><a href="../về chúng tôi/web.html">Về Chúng Tôi</a></li>
+                <li><a href="#">Thông Tin Liên Lạc</a></li>
+            </ul>
+        </div>
+        <div class="noi-dung contact">
+            <h2>Thông Tin Liên Hệ</h2>
+            <ul class="info">
+                <li>
+                    <span><i class="fa fa-map-marker"></i></span>
+                    <span>Royal City, Hà Nội, Việt Nam</span>
+                </li>
+                <li>
+                    <span><i class="fa fa-phone"></i></span>
+                    <p><a href="#">+84 329589317</a>
+                    </p>
+                </li>
+                <li>
+                    <span><i class="fa fa-envelope"></i></span>
+                    <p><a href="#">chungocquangminh@gmail.com</a></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</script>
+<script language="javascript">
+    function Disable_Control_C() {
+        var keystroke = String.fromCharCode(event.keyCode).toLowerCase();
+
+        if (event.ctrlKey && (keystroke == 'c' || keystroke == 'v')) {
+            event.returnValue = false;
+        }
+    }
+</script>
+</body>
+</html>

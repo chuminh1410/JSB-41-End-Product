@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: center;
+}
+
+.nav_bar li {
+    padding: 20px;
+    list-style: none;
+}
+
+.nav_bar li a {
+    text-decoration: none;
+}
+
+nav .logo_img {
+    width: 100px;
+}
+
+.banner_top {
+    height: 400px;
+    position: relative;
+}
+
+.banner {
+    position: absolute;
+    top: 355px;
+    left: 80px;
+    font-weight: bolder;
+    
+}
+
+.sec1 {
+    display: flex;
+}
+
+.sec1_content {
+    padding: 100px;
+}
+
+.sec1_content h2 {
+    padding: 0 50px 50px 0;
+}
+
+header {
+    display: block;
+}
+
+.message {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+.circular--landscape {
+    display: inline-block;
+    position: relative;
+    width: 20em;
+    height: 20em;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.circular--landscape img {
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+}
+
+.circular--portrait {
+    position: relative;
+    width: 20em;
+    height: 20em;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.circular--portrait img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+body {
+    padding-top: 80px;
+    background-image: url('https://advsolutions.vn/wp-content/uploads/2020/01/anh-nen-powerpoint-lich-su-19.jpg');
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.text1 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: rgba(22, 23, 22, 0.932);
+    font-size: 200%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.giai_doan{
+    margin-bottom: 50px;
+    font-size: 200%;
+    margin-top: 110px;
+    font-weight: bold;
+}
+.author{
+    font-size: 150%;
+    margin-top: 10px;   
+    font-weight: bold;
+}
+.main{
+    font-size: 500%;
+}
+.example1{
+    margin-top: 270px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
